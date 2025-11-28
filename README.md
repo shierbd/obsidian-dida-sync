@@ -303,7 +303,7 @@ MIT License
 
 微信扫码即可使用 👇
 
-![澄明CLIR电影票小程序](https://user-images.githubusercontent.com/121352006/澄明CLIR.jpg)
+![澄明CLIR电影票小程序](http://qny.shierbd.com/picgo/澄明小程序.png)
 
 ---
 
