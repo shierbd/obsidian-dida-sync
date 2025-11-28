@@ -1,0 +1,10 @@
+{
+	"id": "dida-sync-v2",
+	"name": "Dida Todo Sync v2.0 (OAuth2)",
+	"version": "2.0.0",
+	"minAppVersion": "1.4.0",
+	"description": "Sync TickTick/滴答清单 to Obsidian with OAuth2",
+	"author": "Community",
+	"isDesktopOnly": false,
+	"authorUrl": "https://github.com/community/obsidian-dida-sync-v2"
+}
