@@ -58,18 +58,22 @@
 
 1. 访问 [滴答清单开发者中心](https://developer.dida365.com/manage)
 2. 登录你的滴答清单账号
-3. 点击"创建应用"
+3. 点击 **"新应用"** → **"新建一个应用"**
 4. 填写应用信息：
-   - 应用名称：随意填写（如：Obsidian 同步）
-   - 回调地址：**必须填写** `http://localhost:8080/callback`
-5. 创建成功后，保存你的 **Client ID** 和 **Client Secret**
+   - **应用名称**：随意填写（如：Obsidian 同步）
+   - 其他字段可以不填
+5. 创建成功后，进入应用详情页面
+6. **重要**：找到 **"重定向URL"** 这个输入框（这是关键步骤！）
+   - 在 "重定向URL" 框中填入：`http://localhost:8080/callback`
+   - 保存设置
+7. 记录你的 **客户端ID（Client ID）** 和 **客户端密钥（Client Secret）**
 
 ### 第二步：在 Obsidian 中配置
 
 1. 打开 Obsidian 设置
 2. 找到 "Dida Todo Sync v2.0" 插件设置
-3. 填入你刚才获取的 **Client ID** 和 **Client Secret**
-4. **回调地址** 保持默认：`http://localhost:8080/callback`
+3. 填入你刚才获取的 **客户端ID（Client ID）** 和 **客户端密钥（Client Secret）**
+4. **回调地址** 保持默认：`http://localhost:8080/callback`（与开发者中心的重定向URL一致）
 
 ### 第三步：OAuth 授权
 
